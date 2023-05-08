@@ -1,0 +1,32 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}
+
+.card-container {
+    background-color: #F22B37;
+    margin: 100px 0px;
+    height: 55vh;
+    border-radius: 8px;
+    padding: 20px 10px;
+    color: white;
+    position: fixed;
+    right: 0;
+}
+
+.card-container h6 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-container p {
+    font-size: 20px;
+    text-align: left;
+}
